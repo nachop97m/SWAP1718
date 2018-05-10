@@ -10,17 +10,17 @@ En esta tercera practica de SWAP, se ha llevado a cabo la creacion de un certifi
 Tal y como se muestra, se pueden realizar peticiones a la maquina en cuestion tanto por HTTPs como por HTTP
 
 ![](https://github.com/nachop97m/SWAP1718/blob/master/practica4/Captura1.PNG)
-
+----------------------------------------------------------
 ![](https://github.com/nachop97m/SWAP1718/blob/master/practica4/Captura2.PNG)
-
+----------------------------------------------------------
 ![](https://github.com/nachop97m/SWAP1718/blob/master/practica4/Captura3.PNG)
-
+----------------------------------------------------------
 ![](https://github.com/nachop97m/SWAP1718/blob/master/practica4/Captura4.PNG)
 
 Enviamos los certificados a las demas maquinas y configuramos apache y nginx (segunda foto)
 
 ![](https://github.com/nachop97m/SWAP1718/blob/master/practica4/Captura5.PNG)
-
+----------------------------------------------------------
 ![](https://github.com/nachop97m/SWAP1718/blob/master/practica4/Captura7.PNG)
 
 Por ultimo, creamos un script con las instrucciones para que el cortafuegos se resetee al inicio y, posteriormente, bloquee todos los puertos excepto el 22 (conexion por ssh), 80 y 443 (HTTP y HTTPs)
